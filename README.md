@@ -13,4 +13,4 @@ Additional features of my game are:
 - The game will tell the player how long the word is.
 - The game will force the player to try to remember all the letters guessed so far, instead of displaying a list.
 
-This game is created by Riya Patel for INST126. This game has contributions through our Code Review assignment since Medhnaa Saran reviewed my Consolidation #2, and Course Materials such as Zoom recordings and presentations were significantly helpful when creating this game. 
+This game is created by Riya Patel for INST126. This game has contributions through our Code Review and Pair Programming assignments since Medhnaa Saran reviewed my Consolidation #2, and Course Materials such as Zoom recordings and presentations were significantly helpful when creating this game. 
