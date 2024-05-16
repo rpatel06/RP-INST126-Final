@@ -1,5 +1,5 @@
 import random
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt # Change implemented from Code Review suggestion from Medhnaa Saran 
 
 # This is a fruit themed word guessing game!
 
