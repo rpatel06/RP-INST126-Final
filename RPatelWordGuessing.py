@@ -1,4 +1,5 @@
 import random
+import matplotlib.pyplot as plt
 
 # This is a fruit themed word guessing game!
 
@@ -51,8 +52,21 @@ def play_game(number_players):
                     print(f"The word was '{word}'.")
                     return
 
+# Graph the scores of the players           
+def plot_scores(scores):
+    players = list(scores.keys())
+    scores_values = list(scores.values())
+
+    plt.bar(players, scores_values, color='skyblue')
+    plt.xlabel('Players')
+    plt.ylabel('Attempts')
+    plt.title('Word Guessing Game Scores')
+    plt.show()
+
 # Enter the how many players are playing 
 
 if __name__ == "__main__":
     number_players = int(input("Enter the number of players: "))
     play_game(number_players)
+
+
